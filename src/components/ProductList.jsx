@@ -1,12 +1,15 @@
 import React, { Component } from 'react'
+import { storeProducts } from '../data'
+import withProductConsumer from '../HOC/withProductConsumer'
 import Product from './Product'
 import Title from './Title'
+
 
 export class ProductList extends Component {
     constructor(props) {
         super(props)
         this.state = {
-            products: []
+            products: storeProducts
         }
     }
     render() {
@@ -15,9 +18,7 @@ export class ProductList extends Component {
                 <div className="py-5">
                     <div className="container">
                         <Title name='our' title='products' />
-                        <div className="row">
-
-                        </div>
+                        <div className="row" />
                     </div>
                 </div>
             </>
@@ -25,4 +26,4 @@ export class ProductList extends Component {
     }
 }
 
-export default ProductList
+export default withProductConsumer(ProductList)
