@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/phone-e-commerce/static/css/main.cb655854.chunk.css",
-    "main.js": "/phone-e-commerce/static/js/main.c9945598.chunk.js",
-    "main.js.map": "/phone-e-commerce/static/js/main.c9945598.chunk.js.map",
-    "runtime-main.js": "/phone-e-commerce/static/js/runtime-main.1fd53c4a.js",
-    "runtime-main.js.map": "/phone-e-commerce/static/js/runtime-main.1fd53c4a.js.map",
+    "main.js": "/phone-e-commerce/static/js/main.01d81ac4.chunk.js",
+    "main.js.map": "/phone-e-commerce/static/js/main.01d81ac4.chunk.js.map",
+    "runtime-main.js": "/phone-e-commerce/static/js/runtime-main.252d0f69.js",
+    "runtime-main.js.map": "/phone-e-commerce/static/js/runtime-main.252d0f69.js.map",
     "static/css/2.20aa2d7b.chunk.css": "/phone-e-commerce/static/css/2.20aa2d7b.chunk.css",
-    "static/js/2.81954251.chunk.js": "/phone-e-commerce/static/js/2.81954251.chunk.js",
-    "static/js/2.81954251.chunk.js.map": "/phone-e-commerce/static/js/2.81954251.chunk.js.map",
-    "static/js/3.dcd6d19c.chunk.js": "/phone-e-commerce/static/js/3.dcd6d19c.chunk.js",
-    "static/js/3.dcd6d19c.chunk.js.map": "/phone-e-commerce/static/js/3.dcd6d19c.chunk.js.map",
+    "static/js/2.b241e25c.chunk.js": "/phone-e-commerce/static/js/2.b241e25c.chunk.js",
+    "static/js/2.b241e25c.chunk.js.map": "/phone-e-commerce/static/js/2.b241e25c.chunk.js.map",
+    "static/js/3.30f07eba.chunk.js": "/phone-e-commerce/static/js/3.30f07eba.chunk.js",
+    "static/js/3.30f07eba.chunk.js.map": "/phone-e-commerce/static/js/3.30f07eba.chunk.js.map",
     "index.html": "/phone-e-commerce/index.html",
     "static/css/2.20aa2d7b.chunk.css.map": "/phone-e-commerce/static/css/2.20aa2d7b.chunk.css.map",
     "static/css/main.cb655854.chunk.css.map": "/phone-e-commerce/static/css/main.cb655854.chunk.css.map",
-    "static/js/2.81954251.chunk.js.LICENSE.txt": "/phone-e-commerce/static/js/2.81954251.chunk.js.LICENSE.txt",
+    "static/js/2.b241e25c.chunk.js.LICENSE.txt": "/phone-e-commerce/static/js/2.b241e25c.chunk.js.LICENSE.txt",
     "static/media/logo.393df3f4.svg": "/phone-e-commerce/static/media/logo.393df3f4.svg",
     "static/media/product-1.dc95857d.png": "/phone-e-commerce/static/media/product-1.dc95857d.png",
     "static/media/product-2.fb642d4a.png": "/phone-e-commerce/static/media/product-2.fb642d4a.png",
@@ -25,10 +25,10 @@
     "static/media/product-8.ab80bb7c.png": "/phone-e-commerce/static/media/product-8.ab80bb7c.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.1fd53c4a.js",
+    "static/js/runtime-main.252d0f69.js",
     "static/css/2.20aa2d7b.chunk.css",
-    "static/js/2.81954251.chunk.js",
+    "static/js/2.b241e25c.chunk.js",
     "static/css/main.cb655854.chunk.css",
-    "static/js/main.c9945598.chunk.js"
+    "static/js/main.01d81ac4.chunk.js"
   ]
 }
