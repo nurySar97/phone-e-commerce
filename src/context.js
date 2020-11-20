@@ -16,21 +16,13 @@ class ProductProvider extends Component {
         this.setProducts()
     }
     setProducts = () => {
-        let tempProducts = []
-        storeProducts.forEach(item => {
-            const singleItem = { ...item };
-            tempProducts = [...tempProducts, singleItem]
-        })
-
-        this.setState(() => {
-            return { products: tempProducts }
-        })
+        this.setState(() => ({ products: JSON.parse(JSON.stringify(storeProducts)) }))
     }
     handleDetail = () => {
         console.log('hello from detail')
     }
-    addToCart = () => {
-        console.log('hello from cart')
+    addToCart = (id) => {
+        alert(id)
     }
     render() {
         return (
