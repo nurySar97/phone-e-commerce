@@ -11,7 +11,7 @@ class ProductProvider extends Component {
         this.state = {
             products: [],
             detailProduct: detailProduct,
-            cart: [],
+            cart: storeProducts,
             modalOpen: false,
             modalProduct: detailProduct,
             cartSubTotal: 0,
@@ -43,7 +43,7 @@ class ProductProvider extends Component {
                 products: tepmProducts,
                 cart: [...this.state.cart, product]
             }
-        }, () => console.log(this.state))
+        })
     }
     getItemById = id => {
         const product = copyObject(this.state.products).find(item => item.id === id)
