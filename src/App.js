@@ -4,10 +4,10 @@ import React, { Component } from 'react'
 import Navbar from './components/Navbar';
 import ProductList from './components/ProductList';
 import Details from './components/Details';
-import Cart from './components/Cart';
 import Default from './components/Default';
 import { Route, Switch } from 'react-router-dom';
 import Modal from './components/Modal';
+import Cart from './components/Cart/Cart';
 
 export class App extends Component {
   render() {
