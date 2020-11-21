@@ -8,23 +8,24 @@ import PropTypes from 'prop-types';
 
 export class Product extends Component {
     render() {
-        const { title, img, price, inCart } = this.props.product
+        const { id, title, img, price, inCart } = this.props.product
         return (
             <>
                 <ProductWrapper className='col-9 mx-auto col-md-6 col-lg-3'>
                     <div className="card m-2">
-                        <div className="img-container p-5" onClick={() => console.log("You Click To Me!")}>
+
+                        <div className="img-container p-5" onClick={() => this.props.handleDetail(id)}>
                             <Link to='/details'>
                                 <img className='card-img-top' src={img} alt='product' />
                             </Link>
                             <button
                                 disabled={inCart ? true : false}
                                 className="cart-btn"
-                                onClick={() => console.log('added to the cart')}
+                                onClick={() => this.props.addToCart(id)}
                             >
                                 {inCart ?
                                     <p disabled className="text-capitalize mb-0">
-                                        in inCart
+                                        inCart
                                 </p>
                                     :
                                     <i className="fas fa-cart-plus" />
@@ -41,6 +42,7 @@ export class Product extends Component {
                                 {price}
                             </h5>
                         </div>
+
                     </div>
                 </ProductWrapper>
             </>
@@ -53,7 +55,7 @@ Product.propTypes = {
         id: PropTypes.number,
         img: PropTypes.string,
         title: PropTypes.string,
-        price:PropTypes.number,
+        price: PropTypes.number,
         inCart: PropTypes.bool
     }).isRequired
 }

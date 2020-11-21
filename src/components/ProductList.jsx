@@ -17,6 +17,8 @@ export class ProductList extends Component {
                                     <Product
                                         key={product.id}
                                         product={product}
+                                        handleDetail={this.props.value.handleDetail}
+                                        addToCart={this.props.value.addToCart}
                                     />
                                 )
                             })}
