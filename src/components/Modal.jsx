@@ -7,9 +7,7 @@ import Button from './Button'
 const Modal = props => {
     const { modalOpen, closeModal } = props.value;
     const { img, title, price } = props.value.modalProduct
-    if (!modalOpen) {
-        return null
-    }
+    if (!modalOpen) return null
     return (
         <ModalContainer>
             <div className="container">
@@ -21,7 +19,7 @@ const Modal = props => {
                         <h5 className='text-muted'>price: ${price}</h5>
                         <Link to='/'>
                             <Button onClick={() => closeModal()}>
-                                Continue shopping
+                                Store
                             </Button>
                         </Link>
                         <Link to='/cart'>

@@ -39,7 +39,7 @@ body {
     font-weight: 700;
     color: var(--mainDark);
     border-radius: 0 !important;
-    border: .1rem solid var(--mainDark) !important;
+    border: .2rem solid var(--mainDark) !important;
 }
 
 .btn-black:hover{
