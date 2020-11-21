@@ -1,5 +1,4 @@
 import './App.css';
-import logo from './logo.svg';
 import 'bootstrap/dist/css/bootstrap.min.css'
 import React, { Component } from 'react'
 import Navbar from './components/Navbar';
@@ -8,6 +7,7 @@ import Details from './components/Details';
 import Cart from './components/Cart';
 import Default from './components/Default';
 import { Route, Switch } from 'react-router-dom';
+import Modal from './components/Modal';
 
 export class App extends Component {
   render() {
@@ -20,6 +20,7 @@ export class App extends Component {
           <Route path='/cart' render={() => <Cart />} />
           <Route path='*' render={() => <Default />} />
         </Switch>
+        <Modal />
       </React.Fragment>
     )
   }

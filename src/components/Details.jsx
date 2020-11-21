@@ -54,7 +54,10 @@ class Details extends Component {
                         </Link>
                         <Button
                             cart="yellow"
-                            onClick={()=>this.props.value.addToCart(id)}
+                            onClick={() => {
+                                this.props.value.addToCart(id);
+                                this.props.value.openModal(id);
+                            }}
                             disabled={inCart ? true : false}
                         >
                             {inCart ? "inCart" : "add to cart"}

@@ -19,6 +19,8 @@ export class ProductList extends Component {
                                         product={product}
                                         handleDetail={this.props.value.handleDetail}
                                         addToCart={this.props.value.addToCart}
+                                        openModal={this.props.value.openModal}
+                                        closeModal={this.props.value.closeModal}
                                     />
                                 )
                             })}
